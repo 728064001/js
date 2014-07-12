@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>opennewwindows</title>
+		<script type="text/javascript">
+			function openf(url){
+				window.open(url);
+			}
+		</script>
+	</head>
+	
+	<body>
+		<a href="javascript:openf('http://www.baidu.com');"> open </a><p/>
+		<pre>
+			为什么要用嵌套函数？
+			    在Firefox中直接使用window.open(...)的锚，会打开
+			新窗口，但窗口却会被window.open(...)方法返回的结果"
+			[object Window]"所覆盖。
+		</pre>
+	</body>
+</html>
