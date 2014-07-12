@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<title>当JS被禁用时，打开新窗口</title>
+		<script type="text/javascript">
+			function popup(url){
+				window.open(url);
+			}
+		</script>
+	</head>
+	
+	<body>
+		<a href="http://www.baidu.com" onclick="this.href='javascript:popup(\'http://www.biadu.com\');'">
+		OPEN NEW WINDOW
+		</a>
+	</body>
+</html>
